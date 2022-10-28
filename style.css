@@ -1,0 +1,67 @@
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    position: relative;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 10px;
+    padding-top: 20px;
+    object-fit: cover;
+    position: relative;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.imgUser {
+  display: block;
+  width: 150px;
+  height: 150px;  
+  border: 2px solid black;
+  border-radius: 50%;
+  justify-content:center;
+  object-fit: cover;   
+  margin: auto;
+  position: relative;
+}
+.border-on {
+  border: 2px solid red;
+}
+
+p{
+    font-size: 1.0em;
+    text-align: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+.name {
+  font-size: 1.8em;
+  bottom: 10px;
+  text-align: center;
+  justify-content:center;
+ 
+}
+
+button{
+    border-radius: 10px;
+    background-color:rgb(133, 140, 140);
+    color: aliceblue;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    flex-direction: row;
+    margin: auto;
+      
+}
